@@ -1,0 +1,19 @@
+:root {
+    --side-clr: #f0abfc;
+    --projects-clr:#4b5563;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.sidebar {
+    grid-row: 1/3;
+}
