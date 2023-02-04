@@ -12,32 +12,36 @@
 
         <div class="sidebar">
             <h2>Dashboard</h2>
-            <div class="top-links">
-                <ul>
-                    <li>Home</li>
-                    <li>Profile</li>
-                    <li>Messages</li>
-                    <li>History</li>
-                    <li>Tasks</li>
-                    <li>Communities</li>
-                </ul>
-            </div>
-            <div class="bottom-links">
-                <ul>
-                    <li>Settings</li>
-                    <li>Support</li>
-                    <li>Privacy</li>
-                </ul>
+            <div class="side-contain">
+                <div class="top-links">
+                    <ul>
+                        <li><img src="./icons/home-outline.svg" alt=""> Home</li>
+                        <li><img src="./icons/card-account-details-outline.svg" alt=""> Profile</li>
+                        <li><img src="./icons/message-badge.svg" alt=""> Messages</li>
+                        <li><img src="./icons/clock-time-three-outline.svg" alt=""> History</li>
+                        <li><img src="./icons/note-multiple-outline.svg" alt=""> Tasks</li>
+                        <li><img src="./icons/account-group-outline.svg" alt=""> Communities</li>
+                    </ul>
+                </div>
+                <div class="bottom-links">
+                    <ul>
+                        <li><img src="./icons/cog.svg" alt=""> Settings</li>
+                        <li><img src="./icons/face-agent.svg" alt=""> Support</li>
+                        <li><img src="./icons/shield-check-outline.svg" alt=""> Privacy</li>
+                    </ul>
+                </div>
             </div>
         </div>
 
         <div class="header">
             <div class="left-side">
+                <img src="./icons/magnify.svg" alt="magnify glass icon">
                 <input type="text" name="" id="">
                 <p>Hi there,</p>
                 <p>Bill Smith(@Bill)</p>
             </div>
             <div class="right-side">
+                <!-- <img src="./avatar/penguin.svg" alt="penguin icon" class="avatar"> -->
                 <p>Bill Smith</p>
                 <button>New</button>
                 <button>Upload</button>
@@ -45,44 +49,104 @@
             </div>
         </div>
 
-        <!-- links to past projects -->
+        <!-- links to past projects, wrapped in view dives for layout purposes  -->
         <main>
             <h2>Your Projects</h2>
             <div class="main-contain">
-                <div class="cards">
-                    <img src="./images/Calculator.png" alt="image of Calculator app" class="img-pro">
-                    <a href="https://kameleon21.github.io/Calculator-App/" target="_blank"><img src="./icons/eye-outline.svg" alt=""></a>
-                    <a href="https://github.com/Kameleon21/Calculator-App" target="_blank"><img src="./icons/source-branch.svg" alt=""></a>
-                </div>
+                <div class="cards-container">
+                    <div class="cards">
+                        <h3>Calculator</h3>
+                        <img src="./images/Calculator.png" alt="image of Calculator app" class="img-pro">
+                        <div class="links-contain">
+                            <a href="https://kameleon21.github.io/Calculator-App/" target="_blank"><img src="./icons/eye-outline.svg" alt=""></a>
+                            <a href="https://github.com/Kameleon21/Calculator-App" target="_blank"><img src="./icons/source-branch.svg" alt=""></a>
+                        </div>
+                    </div>
 
-                <div class="cards">
-                    <img src="./images/Etch.png" alt="" class="img-pro">
-                    <a href="https://kameleon21.github.io/Etch-a-Sketch/" target="_blank" ><img src="./icons/eye-outline.svg" alt=""></a>
-                    <a href="https://github.com/Kameleon21/Etch-a-Sketch" target="_blank" ><img src="./icons/source-branch.svg" alt=""></a>
-                </div>
+                    <div class="cards">
+                        <h3>Sketch Pad</h3>
+                        <img src="./images/Etch.png" alt="" class="img-pro">
+                        <div class="links-contain">
+                            <a href="https://kameleon21.github.io/Etch-a-Sketch/" target="_blank" ><img src="./icons/eye-outline.svg" alt=""></a>
+                            <a href="https://github.com/Kameleon21/Etch-a-Sketch" target="_blank" ><img src="./icons/source-branch.svg" alt=""></a>
+                        </div>
+                    </div>
 
-                <div class="cards">
-                    <img src="./images/Landing.png" alt="" class="img-pro">
-                    <a href="https://kameleon21.github.io/Landing-Page/" target="_blank" ><img src="./icons/eye-outline.svg" alt=""></a>
-                    <a href="https://github.com/Kameleon21/Landing-Page" target="_blank"><img src="./icons/source-branch.svg" alt=""></a>
-                </div>
+                    <div class="cards">
+                        <h3>Template Landing Page</h3>
+                        <img src="./images/Landing.png" alt="" class="img-pro">
+                        <div class="links-contain">
+                            <a href="https://kameleon21.github.io/Landing-Page/" target="_blank" ><img src="./icons/eye-outline.svg" alt=""></a>
+                            <a href="https://github.com/Kameleon21/Landing-Page" target="_blank"><img src="./icons/source-branch.svg" alt=""></a>
+                        </div>
+                    </div>
 
-                <div class="cards">
-                    <img src="./images/RPS.png" alt="" class="img-pro">
-                    <a href="https://kameleon21.github.io/Rock-Paper/" target="_blank"><img src="./icons/eye-outline.svg" alt=""></a>
-                    <a href="https://github.com/Kameleon21/Rock-Paper" target="_blank"><img src="./icons/source-branch.svg" alt=""></a>
-                </div>
+                    <div class="cards">
+                        <h3>Rock Paper Scissors Game</h3>
+                        <img src="./images/RPS.png" alt="" class="img-pro">
+                        <div class="links-contain">
+                            <a href="https://kameleon21.github.io/Rock-Paper/" target="_blank"><img src="./icons/eye-outline.svg" alt=""></a>
+                            <a href="https://github.com/Kameleon21/Rock-Paper" target="_blank"><img src="./icons/source-branch.svg" alt=""></a>
+                        </div>
+                    </div>
 
-                <div class="cards">
-                    <img src="./images/Sign-up.png" alt="" class="img-pro">
-                    <a href="https://kameleon21.github.io/Sign-Up-Form/" target="_blank"><img src="./icons/eye-outline.svg" alt=""></a>
-                    <a href="https://github.com/Kameleon21/Sign-Up-Form" target="_blank"><img src="./icons/source-branch.svg" alt=""></a>
-                </div>
+                    <div class="cards">
+                        <h3>Sign Up Form</h3>
+                        <img src="./images/Sign-up.png" alt="" class="img-pro">
+                        <div class="links-contain">
+                            <a href="https://kameleon21.github.io/Sign-Up-Form/" target="_blank"><img src="./icons/eye-outline.svg" alt=""></a>
+                            <a href="https://github.com/Kameleon21/Sign-Up-Form" target="_blank"><img src="./icons/source-branch.svg" alt=""></a>
+                        </div>
+                    </div>
 
-                <div class="cards">
-                    <img src="./images/school-project.png" alt="" class="img-pro">
-                    <a href="https://kameleon21.github.io/Web-Dev-Assignment-1/" target="_blank"><img src="./icons/eye-outline.svg" alt=""></a>
-                    <a href="https://github.com/Kameleon21/Web-Dev-Assignment-1" target="_blank"><img src="./icons/source-branch.svg" alt=""></a>
+                    <div class="cards">
+                        <h3>School Project</h3>
+                        <img src="./images/school-project.png" alt="" class="img-pro">
+                        <div class="links-contain">
+                            <a href="https://kameleon21.github.io/Web-Dev-Assignment-1/" target="_blank"><img src="./icons/eye-outline.svg" alt=""></a>
+                            <a href="https://github.com/Kameleon21/Web-Dev-Assignment-1" target="_blank"><img src="./icons/source-branch.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="announce">
+                    <h5>Site Maintenance</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nostrum quasi possimus voluptate non...</p>
+                    <hr>
+                    <h5>Community Share Day</h5>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, quidem? Itaque modi odio excepturi sint quos vitae...</p>
+                    <hr>
+                    <h5>Updated Privacy Policy</h5>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates voluptate architecto...</p>
+                </div>
+                <div class="trending">
+                   <div class="avatar-container">
+                        <img src="./avatar/account-cowboy-hat.svg" alt="cowboy icon">
+                        <div>
+                            <p>@tegan</p>
+                            <p>World Peace Builder</p>
+                        </div>
+                   </div>
+                   <div class="avatar-container">
+                        <img src="./avatar/spider.svg" alt="Spider icon">
+                        <div>
+                            <p>@Bill</p>
+                            <p>Supper Cool Project</p>
+                        </div>
+                   </div>
+                   <div class="avatar-container">
+                        <img src="./avatar/penguin.svg" alt="Angry robot icon" class="avatar">
+                        <div>
+                            <p>@kendall</p>
+                            <p>Life Changing App</p>
+                        </div>
+                   </div>
+                   <div class="avatar-container">
+                        <img src="./avatar/robot-angry-outline.svg" alt="">
+                        <div>
+                            <p>@alex</p>
+                            <p>No Traffic Maker</p>
+                        </div>
+                   </div>
                 </div>
             </div>
         </main>
