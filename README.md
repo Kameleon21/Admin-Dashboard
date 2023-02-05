@@ -9,10 +9,10 @@ The aim for this projects was to help me understand and master gird and displayi
 The challenging part about this project that I found hard was figuring out how to 
 structure my website.
 
-##Technology used 
+## Technology used 
 
--HTML
--CSS
+- HTML
+- CSS
 
 ## How to use the project 
 
