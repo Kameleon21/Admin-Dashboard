@@ -17,6 +17,7 @@ structure my website.
 
 ## How to use the project 
 
+![Admin-Dashboard](https://user-images.githubusercontent.com/92760571/216847642-5026ec35-1c97-484a-bace-809fe840f1ee.gif)
 
 ## Contributing 
 
