@@ -1,4 +1,5 @@
-![Alt text](../../Downloads/Admin-Dashboard.png)
+![Admin_DashBoard](https://user-images.githubusercontent.com/92760571/216847410-e834056a-c45d-4985-8b68-4dd65cd9f879.png)
+
 
 # Admin-Dashboard
 
